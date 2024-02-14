@@ -1,12 +1,10 @@
-# LAB - Class 27
+# LAB - Class 28
 
-## Project: Django Models
+## Project: Django CRUD and Forms
 
 ### Project Description
 
-This django built web app utilizes Django Model to allow data to persist using Python objects (models). The models define the structure of stored dta, including the field types, max size, default values, etc. The model is added to `admin` and allows snacks to be added via the Admin panel.
-
-The testing suite verifies status code and the correct template is used. It also includes a `setUp` method that sets up the preconditions for the tests.
+This django built web app utilizes multiple Django Models to allow data to persist using Python objects (models). The models define the structure of stored dta, including the field types, max size, default values, etc. The app includes full CRUD functionality that allows Creating, Reading, Updating and Deleting snacks.
 
 ### Author: Rhett Chase
 
@@ -15,8 +13,9 @@ The testing suite verifies status code and the correct template is used. It also
 <!-- - [back-end server url](https://capital-finder-rhett-chase.vercel.app/api) -->
 <!-- - [front-end application](http://xyz.com/) (when applicable) -->
 - chatGPT
-- [Using Models](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models)
-- [Django Admin](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Admin_site)
+- [Django Forms](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Forms)
+- [Django Templates](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Home_page)
+- [Django Views](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Generic_views)
 
 ### Setup
 
@@ -36,12 +35,6 @@ The testing suite verifies status code and the correct template is used. It also
 - Install dependencies (see above)
 - See the page in browser by running `python manage.py runserver`
 - Open the page via the local server address specified in the terminal
-
-##### Add snack to the database
-
-- In separate terminal, create superuser with command `python manage.py createsuperuser`
-- Visit the `/admin` path and login with the superuser username and password you created
-- In the `Snacks` menu click `add` then fill in the snack information (name, purchaser, description)
 
 #### How to use your library (where applicable)
 
