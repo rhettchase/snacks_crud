@@ -20,7 +20,6 @@ This django built web app utilizes multiple Django Models to allow data to persi
 ### Setup
 
 - `pip install -r requirements.txt`
-- `npm install`
 
 #### `.env` requirements (where applicable)
 
@@ -35,6 +34,19 @@ This django built web app utilizes multiple Django Models to allow data to persi
 - Install dependencies (see above)
 - See the page in browser by running `python manage.py runserver`
 - Open the page via the local server address specified in the terminal
+
+##### Create Superuser
+
+- In separate terminal, create superuser with command `python manage.py createsuperuser`
+- Visit the `/admin` path and login with the superuser username and password you created
+
+##### Create, Update, Delete Snacks
+
+- **`Read`**: Visit the home directory (snack list) view the full list of snacks `http://127.0.0.1:8000/`
+- **`Create`**: Click on `Create New Snack` button and complete the form, then click `Save`
+- **`Update` and `Delete`**: Return to home (snack list), then click on a snack you want to delete or update
+- Click update or delete
+- Confirm your choice (click save to update or OK to delete, depending on the selection)
 
 #### How to use your library (where applicable)
 
