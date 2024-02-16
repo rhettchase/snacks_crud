@@ -31,9 +31,9 @@ This django built web app utilizes multiple Django Models to allow data to persi
 #### How to initialize/run your application (where applicable)
 
 - Clone repo
+- Create and activate virtual environment
 - Install dependencies (see above)
 - See the page in browser by running `python manage.py runserver`
-- If prompted by the terminal, run `python manage.py migrate`
 - Open the page via the local server address specified in the terminal
 
 ##### Create Superuser
